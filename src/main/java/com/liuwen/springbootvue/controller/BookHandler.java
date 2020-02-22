@@ -16,6 +16,7 @@ public class BookHandler {
     @Autowired
     private BookRepository bookRepository;
 
+    //for测试
     @GetMapping("/findAll")
     public List<Book> findAll(){
         return bookRepository.findAll();
